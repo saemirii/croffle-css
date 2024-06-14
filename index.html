@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color to Pastel Converter</title>
+    <link rel="stylesheet" href="path/to/croffle.min.css"> <!-- Replace with actual path to croffle-css -->
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #fffaf0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            border: 2px solid #333;
+            text-align: center;
+            line-height: 100px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color to Pastel Converter</h1>
+    <div class="color-box" id="colorBox1" onclick="convertToPastel('colorBox1', '#FF6347')">Click Me</div>
+    <div class="color-box" id="colorBox2" onclick="convertToPastel('colorBox2', '#4682B4')">Click Me</div>
+    <div class="color-box" id="colorBox3" onclick="convertToPastel('colorBox3', '#7FFF00')">Click Me</div>
+    
+    <script src="index.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>
