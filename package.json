@@ -1,0 +1,27 @@
+{
+  "name": "cupcake-css",
+  "version": "1.0.0",
+  "description": "a lightweight CSS framework to design aesthetically-pleasing websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saemirii/cupcake-css.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "design",
+    "frontend",
+    "aesthetic",
+    "cute"
+  ],
+  "author": "saemirii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saemirii/cupcake-css/issues"
+  },
+  "homepage": "https://github.com/saemirii/cupcake-css#readme"
+}
