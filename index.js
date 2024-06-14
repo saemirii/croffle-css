@@ -6,3 +6,5 @@ const cssFilePath = path.join(__dirname, 'cupcake.css');
 const cssContent = fs.readFileSync(cssFilePath, 'utf8');
 
 module.exports = cssContent;
+
+// Import the cupcake-css styles
