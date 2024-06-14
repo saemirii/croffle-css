@@ -1,0 +1,119 @@
+/* Base Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff69b4;
+    text-align: center;
+}
+
+/* Buttons */
+.button {
+    background-color: #ffb6c1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff69b4;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border: 2px solid #ffb6c1;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffb6c1;
+    border-radius: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 8px;
+    display: block;
+    color: #ff69b4;
+}
+
+/* Links */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffb6c1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff69b4;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffb6c1;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 12px;
+    margin-top: 20px;
+}
