@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saemirii/cupcake-css.git"
+    "url": "git+https://github.com/saemirii/croffless.git"
   },
   "keywords": [
     "css",
@@ -21,9 +21,9 @@
   "author": "saemirii",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saemirii/cupcake-css/issues"
+    "url": "https://github.com/saemirii/croffle-css/issues"
   },
-  "homepage": "https://github.com/saemirii/cupcake-css#readme",
+  "homepage": "https://github.com/saemirii/croffle-css#readme",
   "dependencies": {
     "tinycolor2": "^1.6.0"
   }
