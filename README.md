@@ -25,12 +25,14 @@ Replace `"path/to/croffle.min.css"` with the actual path to `croffle.min.css` in
 
 Once installed, you can start using `croffle-css` in your HTML files. Here are some of the utility functions available in the `utils` module:
 
-#### `utils.function1()`
+#### `applyPastelColor("class", "hex color")`
 
-Description of `function1`.
+Converts any color to a pastel shade.
 
-```html
-<div class="function1"></div>
+```js
+document.addEventListener('DOMContentLoaded', () => {
+    applyPastelColor('.card', '#4287f5'); // Apply pastel color to elements with class "card"
+});
 ```
 
 #### `utils.function2()`
