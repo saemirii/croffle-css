@@ -35,28 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-#### `utils.function2()`
+#### `applyBlobAnimation("class")`
 
-Description of `function2`.
+Applies a blob animation to a button class.
 
-```html
-<div class="function2"></div>
-```
-
-#### `utils.function3()`
-
-Description of `function3`.
-
-```html
-<div class="function3"></div>
-```
-
-#### `utils.function4()`
-
-Description of `function4`.
-
-```html
-<div class="function4"></div>
+```js
+document.addEventListener('DOMContentLoaded', () => {
+    applyBlobAnimation('.card'); // Apply blob animation to buttons with class "card"
+});
 ```
 
 These are just a few examples of the utility functions provided by `croffle-css`. For a complete list of available functions and their usage, please refer to the official documentation.
