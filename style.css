@@ -318,3 +318,18 @@ svg {
   .cute-button:active {
     transform: translateY(1px); /* Pressed down effect on click */
   }
+
+  /* fonts.css */
+
+  @font-face {
+    font-family: 'little-book';
+    src: url('little-book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .little-book {
+    font-family: 'little-book', sans-serif;
+    letter-spacing: 2px;
+  }
+  
