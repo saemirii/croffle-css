@@ -5,6 +5,9 @@ a lightweight CSS framework to design aesthetically-pleasing websites
 
 `croffle-css` is a lightweight CSS framework designed to add a touch of aesthetic and cuteness to your web projects. It provides a collection of utility functions in the `utils` module that can be used to enhance the design and layout of your website.
 
+## community
+Want to partake in discussions regarding croffle-css? Feel free to join the discord server: https://discord.gg/z4MGaEBCda
+
 ### Installation
 
 You can install `croffle-css` via npm by running the following command:
