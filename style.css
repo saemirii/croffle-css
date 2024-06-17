@@ -1,3 +1,10 @@
+@import url('buttons/buttonLift.css');
+@import url('buttons/shadowLift.css');
+@import url('buttons/slideFill.css');
+@import url('styles/cutemodal.css');
+@import url('styles/fonts.css');
+@import url("variables.css"); 
+
 /* Base Styles */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
