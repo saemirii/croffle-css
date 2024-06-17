@@ -1,0 +1,11 @@
+/* fonts.css */
+
+@font-face {
+    font-family: 'little-book';
+    src: url('../fonts/Little\ Book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.little-book {
+    font-family: 'little-book', sans-serif;
+}

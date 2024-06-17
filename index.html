@@ -7,18 +7,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <div class="container">
+      
       <h1>Welcome to Croffle CSS</h1>
-
-      <div class="buttons">
-        <button class="blob-btn">Blob Button</button>
-        <button class="blob-btn">Bubble Button</button>
-      </div>
-
       <div class="card">This is a card with a pastel background.</div>
     </div>
 
-    <button onclick="openModal()">Open Cute Modal</button>
+    <button class = "cute-button" onclick="openModal()">Open Cute Modal</button>
 
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
       <defs>
@@ -38,6 +34,21 @@
         </filter>
       </defs>
     </svg>
+
+    <div class="flex">
+      <ul>
+        <li>
+          <button class="btn-1">Click me!</button>
+        </li>
+        <li>
+          <button class="btn-2">Click me!</button>
+          <div class="btn-shadow"></div>
+        </li>
+        <li>
+          <button class="btn-3">Click me!</button>
+        </li>
+      </ul>
+    </div>
 
     <!-- Script imports -->
     <script type="module" src="index.js"></script>

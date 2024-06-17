@@ -1,0 +1,17 @@
+@import '../variables.css';
+
+.btn-lift {
+    background-color: var(--clr-yellow);
+    border: 2px solid #f6dfa2;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-lift:hover {
+    background-color: #fff3d3;
+    transform: translateY(-4px);
+  }
+  
+  .btn-lift:active {
+    transform: translateY(1px);
+  }
+  
