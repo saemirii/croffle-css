@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "a lightweight CSS framework to design aesthetically-pleasing websites",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npm run test"
   },
