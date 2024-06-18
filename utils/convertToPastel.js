@@ -3,7 +3,7 @@
  * @param {string} color - The original color in hex format (e.g., #FF6347)
  * @return {string} - The pastel shade of the color in hex format
  */
-function toPastelColor(color) {
+export function toPastelColor(color) {
     // Convert hex color to RGB
     const rgb = hexToRgb(color);
     if (!rgb) return color;
@@ -24,7 +24,7 @@ function toPastelColor(color) {
  * @param {string} hex - The hex color
  * @return {object} - The RGB representation
  */
-function hexToRgb(hex) {
+export function hexToRgb(hex) {
     // Remove the hash if present
     hex = hex.replace(/^#/, '');
     if (hex.length === 3) {
@@ -48,11 +48,9 @@ function hexToRgb(hex) {
  * @param {number} b - Blue value
  * @return {string} - The hex color
  */
-function rgbToHex(r, g, b) {
+export function rgbToHex(r, g, b) {
     return '#' + [r, g, b].map(x => {
         const hex = x.toString(16);
         return hex.length === 1 ? '0' + hex : hex;
     }).join('');
 }
-
-module.exports = { toPastelColor, hexToRgb, rgbToHex };
