@@ -3,6 +3,20 @@ a lightweight CSS framework to design aesthetically-pleasing websites
 
 ![header](https://github.com/saemirii/croffle-css/assets/88029789/2c612018-d342-4300-9445-2ab475b7ff96)
 
+<div align="center">
+
+[![npm version](https://img.shields.io/npm/v/croffle-css.svg?style=flat-square)](https://www.npmjs.org/package/croffle-css)
+[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=croffle-css&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=croffle-css)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/croffle-css?style=flat-square)](https://bundlephobia.com/package/croffle-css@latest)
+[![npm downloads](https://img.shields.io/npm/dm/croffle-css.svg?style=flat-square)](https://npm-stat.com/charts.html?package=croffle-css)
+</div>
+<div align = "center">
+<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+</div>
+
+
+</div>
+
 `croffle-css` is a lightweight CSS framework designed to add a touch of aesthetic and cuteness to your web projects. It provides a collection of utility functions in the `utils` module that can be used to enhance the design and layout of your website.
 
 ## official documentation
@@ -31,6 +45,7 @@ Replace `"path/to/croffle.min.css"` with the actual path to `croffle.min.css` in
 
 Once installed, you can start using `croffle-css` in your HTML files. Here are some of the utility functions available in the `utils` module:
 
+## crayon utils
 #### `applyPastelColor("class", "hex color")`
 
 Converts any color to a pastel shade.
@@ -41,14 +56,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-#### `applyBlobAnimation("class")`
+## button animation classes
+#### `btn-lift, btn-shadow-lift, btn-slide-fill`
 
-Applies a blob animation to a button class.
+Applies an aesthetic and simple button animation to a button class.
 
-```js
-document.addEventListener('DOMContentLoaded', () => {
-    applyBlobAnimation('.card'); // Apply blob animation to buttons with class "card"
-});
+```html
+<button class="btn-2">Click me!</button>
+<div class="btn-shadow"></div>
 ```
 
 These are just a few examples of the utility functions provided by `croffle-css`. For a complete list of available functions and their usage, please refer to the official documentation.
