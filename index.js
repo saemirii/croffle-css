@@ -3,6 +3,10 @@ import path from 'path';
 import { applyPastelColor } from './utils/applyPastelColor.js';
 import { applyBlobAnimation } from './utils/applyBlobAnimation.js';
 
+export { applyPastelColor } from './utils/applyPastelColor.js';
+export { convertToPastel } from './utils/convertToPastel.js';
+export { cutemodal } from './utils/cutemodal.js';
+
 const cssFilePath = path.join(__dirname, 'croffle-css.css');
 
 const cssContent = fs.readFileSync(cssFilePath, 'utf8');
