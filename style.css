@@ -4,6 +4,7 @@
 @import url('styles/cutemodal.css');
 @import url('styles/fonts.css');
 @import url("variables.css"); 
+@import url("modals/popup-modal.css");
 
 /* Base Styles */
 body {

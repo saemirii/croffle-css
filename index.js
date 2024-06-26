@@ -31,3 +31,26 @@ function openModal() {
     createCuteModal(title, content);
 }
 
+const btn = document.getElementById("popup-modal");
+
+btn.addEventListener("click", triggerModal);
+
+function triggerModal(e) {
+  const modal = document.querySelector(
+    `[data-modal='${e.target.dataset.modal}-modal']`
+  );
+
+  const modalCloseBtn = modal.querySelector("button.close");
+
+  modal.style.display = "flex";
+
+  modalCloseBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+}

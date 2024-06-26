@@ -1,6 +1,6 @@
 {
   "name": "croffle-css",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "a lightweight CSS framework to design aesthetically-pleasing websites",
   "main": "index.js",
   "type": "module",

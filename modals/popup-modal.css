@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  div:has(.btn-shadow) {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .btn-2 {
+    background-color: #c9e4de;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #aad4cb;
+  }
+  .btn-2:hover {
+    transform: translateY(-8px);
+    border-color: transparent;
+  }
+  .btn-2:active {
+    transform: translateY(-4px);
+  }
+  .btn-2 ~ .btn-shadow {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: #aad4cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 1.6rem;
+    background-color: hsl(152deg, 90%, 90%, 50%);
+  }
+  .modal-content {
+    background-color: hsl(34deg, 90%, 90%);
+    padding: 20px;
+    border: 1px solid hsl(34deg, 90%, 80%);
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    border-radius: 0.8rem;
+    animation-name: modalEnter;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .close {
+    background-color: transparent;
+    border: none;
+    color: hsl(152deg, 30%, 70%);
+    position: absolute;
+    padding: 0;
+    right: 20px;
+    top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    transform-origin: center center;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.01, 0.07, 0.98);
+  }
+  .close:hover,
+  .close:focus {
+    color: hsl(152deg, 30%, 50%);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes modalEnter {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+    75% {
+      transform: translateY(-2px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotateIn {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+  }
+  
