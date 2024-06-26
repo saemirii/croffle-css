@@ -1,11 +1,12 @@
 {
   "name": "croffle-css",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "a lightweight CSS framework to design aesthetically-pleasing websites",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
